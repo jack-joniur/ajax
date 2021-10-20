@@ -1,0 +1,28 @@
+/* #box:hover > div:first-child {
+  transform: rotate(-45deg) translate(-5px);
+}
+#box:hover > div:last-child {
+  transform: rotate(45deg) translate(-5px);
+} */
+#box {
+  cursor: pointer;
+}
+.null {
+  opacity: 0;
+  transform: translate(80%);
+  transition: all 0.2s linear;
+}
+.show {
+  opacity: 1;
+  transform: translate(none);
+  transition: all 0.3s linear;
+}
+.bg-black-transparent {
+  background: rgba(0, 0, 0, 0.7);
+}
+.dec-text {
+  text-decoration: underline;
+}
+div.lang:hover h4:last-child  {
+  display: block;
+}
